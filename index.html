@@ -111,25 +111,15 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Are you keen to learn more about my research? I would love to hear from you!</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							<form method="post" action="contact.php">
+	<label for="name">Name:</label>
+	<input type="text" class="text" name="cf_name" id="name" />
+	<label for="email">email:</label>
+	<input type="text" class="text" name="cf_email" id="email" />
+	<label for="text">Message:</label>
+	<textarea class="text" name="cf_message" id="message"></textarea>
+	<input type="submit" class="submit" value="Send" />
+</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Stanford University<br />
